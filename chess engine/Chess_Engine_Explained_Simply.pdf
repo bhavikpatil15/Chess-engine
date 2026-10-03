@@ -1,0 +1,353 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4673 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1.5 w 0.00 0.75 0.90 RG 0.08 0.11 0.18 rg 48.00 717.89 499.28 70.00 re B
+0.00 0.85 0.95 rg 48.00 717.89 6.00 70.00 re f
+BT /F2 18 Tf 1.00 1.00 1.00 rg 1 0 0 1 66.00 761.89 Tm (THE SECRET LIFE OF A CHESS ENGINE) Tj ET
+BT /F3 11 Tf 0.70 0.80 0.90 rg 1 0 0 1 66.00 733.89 Tm (A Friendly Adventure Guide for Curious Kids \(and Grown-Ups!\)) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 692.39 Tm (Imagine you have a magical wooden toy box filled with 32 little carved kings, queens, knights, and) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 678.39 Tm (pawns. When you play chess with your friend, your eyes see the board and your hand moves the pieces.) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 664.39 Tm (But how can a computer, which has no eyes, no hands, and no brain, play chess against you and win?) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 646.39 Tm (Inside this computer folder is a team of tiny digital superheroes. Each file in your project has one) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 632.39 Tm (special superpower. None of them can play chess alone, but when they work together like best friends) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 618.39 Tm (in a school project, they become a master chess player that thinks faster than lightning!) Tj ET
+1 w 0.60 0.80 0.95 RG 0.95 0.97 1.00 rg 48.00 491.39 499.28 118.50 re B
+0.10 0.60 0.90 rg 48.00 491.39 4.00 118.50 re f
+BT /F2 10 Tf 0.05 0.35 0.65 rg 1 0 0 1 62.00 594.89 Tm (MEET THE SUPERHERO TEAM AT A GLANCE:) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 580.89 Tm (1. board.py: The Toybox \(holds every piece in its exact square\)
+2. moves.py: The Strict Referee) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 567.39 Tm (\(knows all legal chess rules\)
+3. test_moves.py: The Superhero Exam \(tests the referee's) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 553.89 Tm (eyesight\)
+4. evaluate.py: The Wise Judge \(uses a golden scale to see who is winning\)
+5. search.py:) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 540.39 Tm (The Crystal Ball \(looks 5 moves into the future\)
+6. play.py: The Terminal Arcade \(lets you play in) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 526.89 Tm (the black terminal box\)
+7. gui_new.py: The Desktop Game Window \(the classic desktop app\)
+8.) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 513.39 Tm (server.py: The Superfast Telephone Wire \(connects brain to website\)
+9. web/: The Glass Castle \(the) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 499.89 Tm (shiny, modern web browser interface\)) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 443.39 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 443.39 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 464.39 Tm ([1]  board.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 451.39 Tm (-- The Toybox & The Magical Grid) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 421.89 Tm (What is it? Imagine an egg carton with 64 tiny holes: 8 rows tall and 8 columns wide. This file is) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 407.89 Tm (the toybox where the chess board lives.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 389.89 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 389.89 Tm (Capital Letters vs Little Letters: White pieces get tall capital hats \(P for Pawn, N for Knight,) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 375.89 Tm (B, R, Q, K\). Black pieces wear lowercase shoes \(p, n, b, r, q, k\). An empty square is just a) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 361.89 Tm (little dot \('.'\).) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 344.89 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 344.89 Tm (The Secret Address System \(FEN\): If you want to save your game and pack your toys away, board.py) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 330.89 Tm (writes a magical secret code called a FEN string. It describes all 64 squares in a single short) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 316.89 Tm (line of text, like a secret recipe!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 299.89 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 299.89 Tm (Fast Clones \(The Copy Power\): Whenever the computer wants to guess a move, it makes a twin-copy) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 285.89 Tm (of the toybox so your real game never gets messed up.) Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 1 of 6) Tj ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 6 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 3988 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 751.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 751.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 772.89 Tm ([2]  moves.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 759.89 Tm (-- The Strict Referee With The Golden Whistle) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 730.39 Tm (If a pawn suddenly tried to fly backwards across the whole board like a dragon, the referee blows) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 716.39 Tm (its whistle: TWEET! 'Not allowed!' moves.py knows every single rule invented in chess over the last) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 702.39 Tm (1,500 years.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 684.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 684.39 Tm (Two-Step Move Verification: First, it asks 'Can this piece physically walk there?') Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 670.39 Tm (\(Pseudo-legal\). Then it asks the life-or-death question: 'Does this move leave our King in) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 656.39 Tm (danger?' If our King would get captured, the referee throws the move in the trash!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 639.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 639.39 Tm (Special Magic Moves: Moves.py knows the trickiest rules in chess history:) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 622.39 Tm (   - Castling: The King jumps two squares sideways and the Rook hops over him to build a fortress.) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 604.39 Tm (   - En Passant: The ghost pawn capture where a pawn takes an enemy pawn that ran past it.) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 586.39 Tm (   - Pawn Promotion: When a humble pawn reaches the far edge, it transforms into a Queen!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 568.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 568.39 Tm (Check & Checkmate Detector: It checks whether the King is under attack \(Check!\) or trapped with) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 554.39 Tm (zero escape moves \(Checkmate - game over!\).) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 510.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 510.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 531.89 Tm ([3]  test_moves.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 518.89 Tm (-- The Superhero Exam & Obstacle Course) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 489.39 Tm (How do we know our Referee \(moves.py\) didn't forget a rule or fall asleep? test_moves.py is a) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 475.39 Tm (rigorous obstacle course called 'Perft' \(Performance Test\).) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 457.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 457.39 Tm (The Exact Leaf Counter: Computers around the world have calculated the exact number of possible) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 443.39 Tm (moves in chess. From the start position, in 1 move there are exactly 20 possibilities. In 2) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 429.39 Tm (moves, 400. In 3 moves, exactly 8,902!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 412.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 412.39 Tm (Kiwipete Jungle: A famous messy puzzle position with pins, discovered attacks, and double pawn) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 398.39 Tm (pushes. test_moves.py verifies all 97,862 paths in 0.4 seconds. If even ONE pawn move was wrong,) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 384.39 Tm (it sounds an alarm!) Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 2 of 6) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 8 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 4573 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 751.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 751.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 772.89 Tm ([4]  evaluate.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 759.89 Tm (-- The Wise Judge With The Golden Scales) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 730.39 Tm (When the computer looks at a board, it cannot say 'this position looks pretty.' It needs a score!) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 716.39 Tm (evaluate.py is the wise judge holding a giant balance scale. It gives a score in 'centipawns' \(100) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 702.39 Tm (centipawns = 1 healthy pawn\).) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 684.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 684.39 Tm (Piece Pocket Money: Pawn = 100 points, Knight = 320, Bishop = 330, Rook = 500, Queen = 900. The) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 670.39 Tm (King is priceless \(100,000 points\)!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 653.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 653.39 Tm (Square Preference Tables: Pieces hate sitting in corners! Knights in the center attack 8) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 639.39 Tm (squares, but on the edge they only attack 2. evaluate.py gives bonus points for pieces standing) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 625.39 Tm (on golden squares.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 608.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 608.39 Tm (King Bedtime vs King Hero: In the opening, the King must stay tucked in bed behind pawns. But) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 594.39 Tm (when almost all enemy pieces are gone \(the endgame\), the King bravely marches out to help win the) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 580.39 Tm (game!) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 536.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 536.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 557.89 Tm ([5]  search.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 544.89 Tm (-- The Crystal Ball & The Time Machine) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 515.39 Tm (This is the heart and brain of the whole engine! While you are taking your turn, search.py is) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 501.39 Tm (jumping into a time machine to explore hundreds of thousands of possible futures.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 483.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 483.39 Tm (The Tree of Possibilities \(Negamax\): I play this, then you might play that, then I play this...) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 469.39 Tm (It builds a giant tree of choices and assumes you will always pick your best move, so it picks) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 455.39 Tm (the path that keeps it safe.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 438.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 438.39 Tm (Alpha-Beta Pruning \(Ignoring Bad Branches\): If the computer sees that path A loses its Queen for) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 424.39 Tm (nothing, it stops looking down path A immediately! This saves millions of wasted calculations.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 407.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 407.39 Tm (The Quiescence Calmer: Have you ever made a trade where you take a piece, but forget that their) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 393.39 Tm (friend takes you right back? Quiescence search keeps calculating until all captures stop,) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 379.39 Tm (avoiding blind traps!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 362.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 362.39 Tm (Transposition Table \(The Photographic Memory\): If two different move orders lead to the exact) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 348.39 Tm (same position, search.py remembers the answer in its memory diary so it never solves the same) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 334.39 Tm (puzzle twice.) Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 3 of 6) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 10 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+10 0 obj
+<< /Length 4225 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 751.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 751.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 772.89 Tm ([6]  play.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 759.89 Tm (-- The Retro Arcade In The Terminal) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 730.39 Tm (Before we built fancy web pages, play.py was how human players challenged the computer. It prints) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 716.39 Tm (the 64 squares out of plain keyboard letters inside your black terminal screen!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 698.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 698.39 Tm (Three Bot Personalities: ) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 681.39 Tm (   - Bot 1 \(The Toddler\): Picks any legal move completely at random.) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 663.39 Tm (   - Bot 2 \(The Greedy Goblin\): Grabs whichever piece has the highest point value right now, even) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 649.39 Tm (if it walks into a trap!) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 631.39 Tm (   - Bot 3 \(The Grandmaster\): Wakes up search.py to look several steps ahead with deep) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 58.00 617.39 Tm (calculation.) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 572.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 572.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 593.89 Tm ([7]  gui_new.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 580.89 Tm (-- The Desktop Window On Your Screen) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 551.39 Tm (gui_new.py is a classic desktop computer window built with Tkinter \(Python's built-in paintbrush\).) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 537.39 Tm (It draws colored tiles, listens for mouse clicks on pieces, and displays a blue arrow showing the) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 523.39 Tm (best move.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 505.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 505.39 Tm (Background Brain Worker \(Threading\): When the engine thinks, it runs in a quiet background room) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 491.39 Tm (so your mouse doesn't freeze. You can click 'Undo' or 'Flip' anytime!) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 447.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 447.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 468.89 Tm ([8]  server.py) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 455.89 Tm (-- The High-Speed Telephone Operator) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 426.39 Tm (Your web browser \(Chrome or Safari\) cannot talk to Python directly. They speak different languages!) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 412.39 Tm (server.py acts as the friendly telephone operator standing between the two.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 394.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 394.39 Tm (Order Taker \(HTTP API\): When you drag a piece in your browser, the browser whispers: 'Hey) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 380.39 Tm (server, I want to move e2 to e4!' server.py checks with moves.py, runs search.py, and replies in) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 366.39 Tm (milliseconds: 'Move accepted! The engine thinks White is ahead by +0.35.') Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 349.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 349.39 Tm (Stop-Watch & Cancellation: If you make a new move while the engine is still thinking, server.py) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 335.39 Tm (taps search.py on the shoulder: 'Stop! The player made a new move, start thinking about this one) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 321.39 Tm (instead!') Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 4 of 6) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 12 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+12 0 obj
+<< /Length 3979 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1.5 w 0.00 0.75 0.90 RG 0.08 0.11 0.18 rg 48.00 717.89 499.28 70.00 re B
+0.00 0.85 0.95 rg 48.00 717.89 6.00 70.00 re f
+BT /F2 18 Tf 1.00 1.00 1.00 rg 1 0 0 1 66.00 761.89 Tm (THE MODERN WEB KINGDOM \(web/ folder\)) Tj ET
+BT /F3 11 Tf 0.70 0.80 0.90 rg 1 0 0 1 66.00 733.89 Tm (PyChess Studio -- Your Exact Stitch Design) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 692.39 Tm (Inside the web/ folder lives the exact interface you crafted in Stitch: 'PyChess Studio - Midnight) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 678.39 Tm (Retro'. It features the Walnut & Bone chessboard, floating frosted capsule bar, player placards, and) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 664.39 Tm (retro gold telemetry!) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 619.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 619.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 640.89 Tm ([A]  index.html) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 627.89 Tm (-- The PyChess Studio Stage & Layout) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 598.39 Tm (index.html implements your exact 12-column Stitch layout: the Top Snapshot capsule with '+1.4 White) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 584.39 Tm (leads', Opponent & Player placards with live game clocks, the 560x560 board flanked by the precision) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 570.39 Tm (eval bar, the under-board dock controls \(Takeback, Suggest Move, Flip, New Game\), Candidate Lines,) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 556.39 Tm (and Engine Telemetry.) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 511.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 511.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 532.89 Tm ([B]  style.css & Tailwind) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 519.89 Tm (-- Your Exact Colors & Typography) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 490.39 Tm (Directly uses your Stitch design tokens and Google Web Fonts:) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 472.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 472.39 Tm (Exact Palette: Deep charcoal base \(#0c0e12\), surface workpanes \(#1a1c20\), crisp borders) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 458.39 Tm (\(#2d3139\), and warm retro amber-gold \(#e5a93c / #ffc665\).) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 441.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 441.39 Tm (Walnut & Bone Board: Alabaster light squares \(#efe8dd\) and cool slate-dark squares \(#2a303e\) for) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 427.39 Tm (maximum piece clarity.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 410.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 410.39 Tm (Fonts: Plus Jakarta Sans for bold headlines, Inter for crisp UI labels, and monospaced telemetry) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 396.39 Tm (for clocks and depths.) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 352.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 352.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 373.89 Tm ([C]  pieces.js) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 360.89 Tm (-- The Beautiful Handcrafted Wooden Toys) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 331.39 Tm (Instead of blurry photos downloaded from the internet that might break offline, pieces.js contains) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 317.39 Tm (crisp vector math instructions \(SVGs\) for all 12 chess pieces. They stay razor-sharp whether viewed) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 303.39 Tm (on a giant 4K television or a tiny phone screen!) Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 5 of 6) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 14 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R /F3 17 0 R >> >> >>
+endobj
+14 0 obj
+<< /Length 4500 >>
+stream
+0.00 0.85 0.95 rg 48.00 811.89 499.28 2.00 re f
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 751.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 751.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 772.89 Tm ([D]  sound.js) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 759.89 Tm (-- The Orchestra & Sound Effects) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 730.39 Tm (sound.js uses your computer's built-in sound synthesizer chip \(Web Audio API\) to play real audio) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 716.39 Tm (without needing any mp3 audio files!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 698.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 698.39 Tm (The Wooden Tock: A quick, satisfying wooden snap when you set a piece on an empty square.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 681.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 681.39 Tm (The Capture Thud: A deep, energetic bass thud when you capture an enemy piece.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 664.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 664.39 Tm (The Check Chime: A two-tone alert chime warning you that the King is in danger!) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 647.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 647.39 Tm (The Victory Fanfare: A cheerful four-note musical chord when someone wins by checkmate.) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 603.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 603.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 624.89 Tm ([E]  app.js) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 611.89 Tm (-- The Master Puppeteer \(Client Brain\)) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 582.39 Tm (app.js is the conductor of the orchestra in your browser. It connects the mouse, the board, the) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 48.00 568.39 Tm (sounds, and the server into one smooth experience.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 550.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 550.39 Tm (Mouse & Touch Handling: Lets you drag pieces smoothly with your finger/mouse or click-to-move.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 533.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 533.39 Tm (Arrow Painter: Uses a transparent digital glass canvas overlay to draw a bright neon cyan arrow) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 519.39 Tm (pointing to the engine's favorite move.) Tj ET
+BT /F2 10 Tf 0.00 0.70 0.85 rg 1 0 0 1 54.00 502.39 Tm (*) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 502.39 Tm (Move Memory Table: Keeps track of every move played \(1. e4 e5 2. Nf3...\). You can click any move) Tj ET
+BT /F1 9.5 Tf 0.18 0.20 0.25 rg 1 0 0 1 68.00 488.39 Tm (in the past to travel backwards in time!) Tj ET
+1 w 0.20 0.25 0.35 RG 0.12 0.16 0.24 rg 48.00 444.89 499.28 36.00 re B
+0.00 0.85 0.85 rg 48.00 444.89 5.00 36.00 re f
+BT /F2 12 Tf 0.00 0.90 1.00 rg 1 0 0 1 62.00 465.89 Tm ([*]  Summary) Tj ET
+BT /F2 10 Tf 1.00 1.00 1.00 rg 1 0 0 1 62.00 452.89 Tm (-- The Grand Symphony: What Happens In 1 Second) Tj ET
+1 w 0.60 0.80 0.95 RG 0.95 0.97 1.00 rg 48.00 327.89 499.28 105.00 re B
+0.10 0.60 0.90 rg 48.00 327.89 4.00 105.00 re f
+BT /F2 10 Tf 0.05 0.35 0.65 rg 1 0 0 1 62.00 417.89 Tm (WHEN YOU MOVE A PAWN FROM e2 TO e4:) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 403.89 Tm (1. Your mouse drops the pawn on e4 -> app.js hears the click.
+2. sound.js plays a crisp wooden) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 390.39 Tm ('tock' sound.
+3. app.js sends a message to server.py across the local wire.
+4. server.py tells) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 376.89 Tm (moves.py: 'Is this legal?' -> moves.py says YES!
+5. board.py moves the pawn on the internal) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 363.39 Tm (grid.
+6. search.py wakes up, evaluates 50,000 futures in evaluate.py.
+7. server.py sends the) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 349.89 Tm (answer back to app.js.
+8. style.css smoothly moves the Eval Bar, and app.js paints the best-move) Tj ET
+BT /F3 9 Tf 0.15 0.25 0.35 rg 1 0 0 1 62.00 336.39 Tm (arrow!
+All of that happens in less than half a second!) Tj ET
+0.85 0.88 0.92 RG 1 w 48.00 32.00 499.28 0.00 re S
+BT /F3 8.5 Tf 0.5 0.55 0.62 rg 1 0 0 1 48.00 20.00 Tm (The Secret Life of a Chess Engine  |  Page 6 of 6) Tj ET
+
+endstream
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+16 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+17 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000153 00000 n 
+0000000308 00000 n 
+0000005033 00000 n 
+0000005188 00000 n 
+0000009228 00000 n 
+0000009383 00000 n 
+0000014008 00000 n 
+0000014164 00000 n 
+0000018442 00000 n 
+0000018599 00000 n 
+0000022631 00000 n 
+0000022788 00000 n 
+0000027341 00000 n 
+0000027439 00000 n 
+0000027542 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+27648
+%%EOF
